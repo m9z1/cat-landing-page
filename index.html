@@ -12,17 +12,16 @@
         <nav class="navbar">
             <div class="logo">Purrfect</div>
             <div class="links">
-                <a href="#">link one</a>
-                <a href="#">link two</a>
-                <a href="#">link three</a>
+                <a href="#crew">about</a>
+                <a href="#contact">contact</a>
             </div>
         </nav>
 
-        <div class="header-content">
+        <div id="start" class="header-content">
             <div class="left">
                 <h1 class="hero">Welcome to the studio</h1>
                 <p class="secondary-text">Welcome to Purrfect Studios, where talented felines bring your creative visions to life with purrfection. Unleash your imagination!</p>
-                <button id="signup-button">MEOW!!</button>
+                <button id="button">MEOW!!</button>
             </div>
             <div class="right">
                 <img  class="header-image" src="images\catgroup.jpg" height="350" width="500">
@@ -32,7 +31,7 @@
 
     
     <div class="main-content">
-        <div class="crew-info">
+        <div id="crew" class="crew-info">
             <h1 class="title">Our Crew</h1>
             <div class="card-container">
                 <div id="card-1">
@@ -50,7 +49,7 @@
                 <div id="card-3">
                     <div class="card">
                         <img class="image" src="images\silly-cat.jpg" alt="edward" height="150" width="150">
-                        <p class="description"><strong>Edward</strong> <br> Does more goofing than work. </p>
+                        <p class="description"><strong>Edward</strong> <br> Does more goofing around than work. </p>
                     </div>
                 </div>
                 <div id="card-4">
@@ -63,17 +62,27 @@
         </div>
 
         <div class="quote-container">
-            <em>Meow meow meow meoww meowow meowww meow meow meow.</em>
-            <p>-CATLER</p>
+            <em id="quote">meow meow meow meoww meow meowww meow meow meow.</em>
+            <p id="author">-CATLER</p>
         </div>
 
-        <div class="contact">
-            <div class="content">
-                <div class="left">Contact US!</div>
-                <div class="right">
-                    <button id="signup-button">Click Here</button>
+        <div id="contact" class="contact-container">
+            <div class="contact">
+                <div class="content">
+                    <div class="left">
+                        <h2>Wanna work with us?</h2>
+                        <em>only if you are a cat</em>
+                    </div>
+                    <div class="right">
+                        <button id="contact-button"><a href="https://rickroll.it/rickroll.mp4" target="_blank" rel="noreferrer noopener">Contact Us!</a></button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    
+    <footer>
+        created by <a href="https://github.com/m9z1" target="_blank" rel="noreferrer noopener">m9z1</a>
+    </footer>
+</body>    
 </html>
